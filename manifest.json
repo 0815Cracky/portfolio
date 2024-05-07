@@ -1,0 +1,27 @@
+{
+    "name": "0815Cracky",
+    "short_name": "Cracky",
+    "theme_color": "#9200ee",
+    "background_color": "#000",
+    "display": "browser",
+    "orientation": "any",
+    "scope": "/",
+    "start_url": "https://cracky.eu/",
+    "icons": [
+      {
+        "src": "img/manifest/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/manifest/icons-256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "img/manifest/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
