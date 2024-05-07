@@ -1,7 +1,7 @@
 <?php
 
 // Put contacting email here
-$php_main_email = "info@cracky.eu";
+$php_main_email = "cracky@myra.nz";
 
 //Fetching Values from URL
 $php_name = $_POST['ajax_name'];
