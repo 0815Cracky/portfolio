@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+REV:2023-04-07T08:45:51.069Z
+UID:urn:uuid:undefined
+KIND:individual
+NAME:oneVcard
+N;CHARSET=utf-8:Mueller;Samuel;;;
+FN;CHARSET=utf-8:Samuel Mueller
+ORG;CHARSET=utf-8:DRKZ.eu
+EMAIL;INTERNET;type=WORK:info@cracky.eu
+BDAY:2004-11-09
+item1.URL:https\://onevcard.app/v/oT32v_TilRncdRgdvQdJN
+item1.X-ABLabel:Visitenkarte
+TEL;type=CELL;type=VOICE:+4917630101062
+NOTE;CHARSET=utf-8:Be what you want to be.\n------------------------\nMei
+ ne Social Media Kanaele und aktuellen Kontaktdaten koennen jederzeit auf 
+ meiner digitalen Visitenkarte abgerufen werden: https://onevcard.app/v/oT
+ 32v_TilRncdRgdvQdJN\n------------------------\npowered by www.oneVcard.de
+ \n\n\n\n-- Hinzugefuegt am 07.04.2023 --
+END:VCARD
