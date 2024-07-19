@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="description" content="0815Cracky Portfolio">
 	<meta name="author" content="myra.nz">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<meta content="cracky.eu - Who am I" property="og:title" />
 	<meta content="Find out who am I..." property="og:description" />
 	<meta content="https://cracky.eu" property="og:url" />
 	<meta content="https://cracky.eu/img/og/static.png" property="og:image" />
 	<meta content="#9a40bf" data-react-helmet="true" name="theme-color" />
+
 	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -21,7 +24,9 @@
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 	<link id="u-page-google-font" rel="stylesheet"
 		href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i">
+
 	<title>Cracky | Home</title>
+
 	<!-- STYLES -->
 	<link
 		href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -38,7 +43,11 @@
 	<link rel="stylesheet" type="text/css" href="css/colors.css" />
 	<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+	<!-- /STYLES -->
+
 </head>
+
 <script type='text/javascript'>
 	var isCtrl = false;
 	document.onkeyup = function (e) {
@@ -53,10 +62,11 @@
 			return false;
 		}
 	}
+	// right click code
 	var isNS = (navigator.appName == "Netscape") ? 1 : 0;
 	if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
 	function mischandler() {
-		// alert('There is nothing gonna happen when you right-click. UwU');
+		// alert('Do not try!');
 		return false;
 	}
 	function mousehandler(e) {
@@ -67,6 +77,7 @@
 	document.oncontextmenu = mischandler;
 	document.onmousedown = mousehandler;
 	document.onmouseup = mousehandler;
+	//select content code disable  alok goyal
 	function killCopy(e) {
 		return false
 	}
@@ -79,13 +90,27 @@
 		document.onclick = reEnable
 	}
 </script>
-<body class="dark">
+
+<body class="dark"> <!-- If you want DARK MODE just add class 'dark' to body. For Example: <body class="dark"> -->
+
+	<!-- PRELOADER -->
 	<div class="arlo_tm_preloader">
 		<div class="spinner_wrap">
 			<div class="spinner"></div>
 		</div>
 	</div>
-	<div class="arlo_tm_all_wrap" data-magic-cursor="purple" data-color="purple">
+	<!-- /PRELOADER -->
+
+
+	<!-- WRAPPER ALL -->
+	<div class="arlo_tm_all_wrap" data-magic-cursor="" data-color="purple">
+
+		<!-- "" is default option -->
+
+		<!-- MAGIC CURSOR VALUES: "", hide -->
+		<!-- COLOR VALUES: blue, green, brown, pink, orange, black, white, purple, sky, cadetBlue, crimson, olive, red -->
+
+		<!-- MODALBOX NEWS -->
 		<div class="arlo_tm_modalbox_news">
 			<div class="box_inner">
 				<div class="close">
@@ -95,6 +120,9 @@
 				</div>
 			</div>
 		</div>
+		<!-- /MODALBOX NEWS -->
+
+		<!-- MOBILE MENU -->
 		<div class="arlo_tm_mobile_menu">
 			<div class="mobile_menu_inner">
 				<div class="container">
@@ -120,12 +148,16 @@
 							<li><a href="#about">About</a></li>
 							<li><a href="#services">Services</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#news">News</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /MOBILE MENU -->
+
+		<!-- TOPBAR -->
 		<div class="arlo_tm_topbar">
 			<div class="container">
 				<div class="topbar_inner">
@@ -139,12 +171,16 @@
 							<li><a href="#about">About</a></li>
 							<li><a href="#services">Services</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#news">News</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /TOPBAR -->
+
+		<!-- HERO -->
 		<div class="arlo_tm_hero" id="home">
 			<div class="glitch_wrap">
 				<div class="glitch"></div>
@@ -164,6 +200,9 @@
 				<a href="#about"><i class="xcon-angle-double-down"></i></a>
 			</div>
 		</div>
+		<!-- /HERO -->
+
+		<!-- ABOUT -->
 		<div class="arlo_tm_about" id="about">
 			<div class="container">
 				<div class="arlo_tm_main_title">
@@ -218,6 +257,9 @@
 				</div>
 			</div>
 		</div>
+		<!-- /ABOUT -->
+
+		<!-- SERVICES -->
 		<div class="arlo_tm_section" id="services">
 			<div class="arlo_tm_services">
 				<div class="container">
@@ -251,6 +293,20 @@
 										earth, be creative!</p>
 								</div>
 							</li>
+							<!-- <li class="wow fadeInLeft" data-wow-duration="1.5s">
+							<div class="inner">
+								<img class="svg" src="img/svg/photoshop.svg" alt="" />
+								<h3>Adobe Photoshop</h3>
+								<p>Web design is a similar process of creation, with the intention of presenting...</p>
+							</div>
+						</li>
+						<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.2s">
+							<div class="inner">
+								<img class="svg" src="img/svg/ai.svg" alt="" />
+								<h3>Adobe Illustrator</h3>
+								<p>Web design is a similar process of creation, with the intention of presenting...</p>
+							</div>
+						</li> -->
 							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">
 								<div class="inner">
 									<img class="svg" src="img/svg/share.svg" alt="" />
@@ -266,6 +322,9 @@
 				</div>
 			</div>
 		</div>
+		<!-- /SERVICES -->
+
+		<!-- PORTFOLIO -->
 		<div class="arlo_tm_section" id="portfolio">
 			<div class="arlo_tm_portfolio">
 				<div class="container">
@@ -280,7 +339,7 @@
 								<li><a href="#" class="current" data-filter="*">All</a></li>
 								<li><a href="#" data-filter=".design">Design</a></li>
 								<li><a href="#" data-filter=".projects">Projects</a></li>
-								
+								<!-- <li><a href="#" data-filter=".photography">Photography</a></li> -->
 							</ul>
 						</div>
 						<div class="portfolio_list">
@@ -310,6 +369,16 @@
 										</div>
 									</div>
 								</li>
+								<!-- <li class="design">
+								<div class="inner">
+									<div class="entry arlo_tm_portfolio_animation_wrap" data-title="ConfigHub" data-category="Design">
+										<a class="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
+											<img src="img/ratios/ratio-1-1.jpg" alt="" />
+											<div class="main_image" data-img-url="img/portfolio/2.jpg"></div>
+										</a>
+									</div>
+								</div>
+							</li> -->
 								<li class="design">
 									<div class="inner">
 										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="ConfigHub"
@@ -325,12 +394,45 @@
 										</div>
 									</div>
 								</li>
+								<!-- <li class="photography">
+								<div class="inner">
+									<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Black Coffee" data-category="Photography">
+										<a class="zoom" href="https://cdn.cracky.eu/img/portfolio/4.jpg">
+											<img src="https://cdn.cracky.eu/img/ratios/ratio-1-1.jpg" alt="" />
+											<div class="main_image" data-img-url="https://cdn.cracky.eu/img/portfolio/4.jpg"></div>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="branding">
+								<div class="inner">
+									<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Blue Lemon" data-category="Branding">
+										<a class="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
+											<img src="https://cdn.cracky.eu/img/ratios/ratio-1-1.jpg" alt="" />
+											<div class="main_image" data-img-url="https://cdn.cracky.eu/img/portfolio/5.jpg"></div>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li class="design">
+								<div class="inner">
+									<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Sweet Cherry" data-category="Photography">
+										<a class="zoom" href="https://cdn.cracky.eu/img/portfolio/6.jpg">
+											<img src="https://cdn.cracky.eu/img/ratios/ratio-1-1.jpg" alt="" />
+											<div class="main_image" data-img-url="https://cdn.cracky.eu/img/portfolio/6.jpg"></div>
+										</a>
+									</div>
+								</div>
+							</li> -->
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /PORTFOLIO -->
+
+		<!-- COUNTER -->
 		<div class="arlo_tm_section">
 			<div class="arlo_tm_counter_section">
 				<div class="container">
@@ -350,6 +452,7 @@
 							</li>
 							<li>
 								<div class="list_inner" id="countup1">
+									<!-- <h3 class="arlo_tm_counter" data-from="0" data-to="6574" data-speed="2000">0</h3>  -->
 									<h3 class="timeel days">00</h3>
 									<span>Days On Earth</span>
 								</div>
@@ -365,6 +468,9 @@
 				</div>
 			</div>
 		</div>
+		<!-- /COUNTER -->
+
+		<!-- NEWS -->
 		<div class="arlo_tm_section" id="news">
 			<div class="arlo_tm_news">
 				<div class="container">
@@ -409,11 +515,68 @@
 									</div>
 								</div>
 							</li>
+							<!-- <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<div class="list_inner">
+								<div class="image">
+									<img src="img/ratios/ratio-4-3.jpg" alt="" />
+									<div class="main" data-img-url="img/news/2.jpg"></div>
+									<a class="arlo_tm_full_link" href="#"></a>
+								</div>
+								<div class="details">
+									<h3 class="title"><a href="#">How to be appreciated for your hard work as a developer</a></h3>
+									<p class="date">By <a href="#">Brook Kennedy</a> <span>22 May 2020</span></p>
+								</div>
+								<div class="description">
+									<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+									<blockquote>As Vintage decided to have a closer look into fast-paced New York web design realm in person. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</blockquote>
+									<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+									<div class="share">
+										<span>Share:</span>
+										<ul class="social">
+											<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" ></a></li>
+											<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" ></a></li>
+											<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" ></a></li>
+											<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" ></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li> -->
+							<!-- <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+							<div class="list_inner">
+								<div class="image">
+									<img src="img/ratios/ratio-4-3.jpg" alt="" />
+									<div class="main" data-img-url="img/news/3.jpg"></div>
+									<a class="arlo_tm_full_link" href="#"></a>
+								</div>
+								<div class="details">
+									<h3 class="title"><a href="#">How designers and developers can collaborate better</a></h3>
+									<p class="date">By <a href="#">Paola Atkins</a> <span>05 April 2020</span></p>
+								</div>
+								<div class="description">
+									<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+									<blockquote>As Vintage decided to have a closer look into fast-paced New York web design realm in person. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</blockquote>
+									<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+									<div class="share">
+										<span>Share:</span>
+										<ul class="social">
+											<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" ></a></li>
+											<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" ></a></li>
+											<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" ></a></li>
+											<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" ></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li> -->
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /NEWS -->
+
+		<!-- CONTACT -->
 		<div class="arlo_tm_section" id="contact">
 			<div class="arlo_tm_contact">
 				<div class="container">
@@ -455,11 +618,19 @@
 									</form>
 								</div>
 							</div>
+							<!-- <div class="right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<div class="map_wrap">
+								<div class="map" id="ieatmaps"></div>
+							</div>
+						</div> -->
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- /CONTACT -->
+
+		<!-- COPYRIGHT -->
 		<div class="arlo_tm_section">
 			<div class="arlo_tm_copyright">
 				<div class="container">
@@ -485,16 +656,26 @@
 				</div>
 			</div>
 		</div>
+		<!-- /COPYRIGHT -->
+
+		<!-- CURSOR -->
 		<div class="mouse-cursor cursor-outer"></div>
 		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /CURSOR -->
+
 	</div>
+	<!-- / WRAPPER ALL -->
+
+	<!-- SCRIPTS -->
 	<script src="js/jquery.js"></script>
+	<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
 	<script src="js/plugins.js"></script>
 	<script src="js/init.js"></script>
 	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
 	<script>
 		window.onload = function () {
+			// Month Day, Year Hour:Minute:Second, id-of-element-container
 			countUpFromTime("Nov 9, 2004 12:00:00", 'countup1');
 		};
 		function countUpFromTime(countFrom, id) {
@@ -521,5 +702,8 @@
 			countUpFromTime.interval = setTimeout(function () { countUpFromTime(countFrom, id); }, 1000);
 		}
 	</script>
+	<!-- /SCRIPTS -->
+
 </body>
+
 </html>
